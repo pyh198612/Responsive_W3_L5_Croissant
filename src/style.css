@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #27296d;
+  --secondary-color: #eeeeee;
+}
+
 body {
   max-width: 900px;
   margin: 70px auto;
@@ -7,24 +12,24 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #27296d;
+  color: var(--primary-color);
 }
 
 .navigation-link {
-  border: 1px solid #27296d;
+  border: 1px solid var(--primary-color);
   border-radius: 5px;
   width: 200px;
   text-align: center;
   font-weight: bold;
   padding: 15px 20px;
   margin: 30px 20px;
-  color: #27296d;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 .navigation-link:hover {
-  color: #eeeeee;
-  background: #27296d;
+  color: var(--secondary-color);
+  background: var(--primary-color);
 }
 
 .main-image {
@@ -40,7 +45,7 @@ h1 {
 
 .email-link {
   text-decoration: none;
-  color: #27296d;
+  color: var(--primary-color);
   font-weight: bold;
 }
 
